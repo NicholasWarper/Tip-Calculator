@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/logo.svg" class="Logo" />
+
+    <div class="card">
+      <div class="Lcard">
+        <h4 class="title">Bill</h4>
+        <div class="cost">
+          <img src="images/icon-dollar.svg" alt="" />
+          <h2 class="bill">142.55</h2>
+        </div>
+        <h5 class="title">Select Tip %</h5>
+        <div class="TipSelect">
+          <h3 class="unselected">5%</h3>
+          <h3 class="unselected">10%</h3>
+          <h3 class="selected">15%</h3>
+          <h3 class="unselected">25%</h3>
+          <h3 class="unselected">50%</h3>
+          <h3 class="custom">custom</h3>
+        </div>
+        <h5 class="title">Number of People</h5>
+        <div class="paying">
+          <img src="images/icon-person.svg" alt="" />
+          <h2 class="PeopleAmount">5</h2>
+        </div>
+      </div>
+
+      <div class="Rcard">
+        <div class="TipAmount">
+          <div class="words">
+            <h5 class="paying1">Tip Amount</h5>
+            <h6 class="person">/ person</h6>
+          </div>
+          <h1 class="dollars">$4.27</h1>
+        </div>
+
+        <div class="Amount">
+          <div class="words">
+            <h5 class="paying1">Total</h5>
+            <h6 class="person">/ person</h6>
+          </div>
+
+          <h1 class="dollars">$32.79</h1>
+        </div>
+        <button class="reset">RESET</button>
+      </div>
+    </div>
+  </body>
+</html>
