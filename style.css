@@ -36,25 +36,22 @@ body {
 }
 
 .unselected {
-  color: white;
   background-color: hsl(183, 100%, 15%);
+  color: hsl(172, 67%, 45%);
   padding: 10px;
   align-items: center;
   justify-content: center;
   display: flex;
   width: 75px;
   border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
 }
 
-.selected {
+.unselected:hover {
+  transition: 0.5s;
   color: hsl(183, 100%, 15%);
   background-color: hsl(172, 67%, 45%);
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 75px;
-  border-radius: 5px;
 }
 
 .custom {
@@ -64,8 +61,10 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  width: 75px;
+  width: 55px;
   border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
 }
 
 .title {
@@ -86,9 +85,23 @@ body {
 
 .bill {
   color: hsl(183, 100%, 15%);
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+  height: 50px;
+  width: 250px;
+  margin-right: 0px;
+  font-size: 40px;
+  text-align: right;
 }
 .PeopleAmount {
   color: hsl(183, 100%, 15%);
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+  height: 50px;
+  width: 250px;
+  margin-left: 20px;
+  font-size: 40px;
+  text-align: right;
 }
 
 .paying1 {
@@ -100,7 +113,6 @@ body {
   align-content: center;
   justify-content: center;
   display: flex;
-  gap: 200px;
   width: 300px;
   border-radius: 5px;
 }
@@ -115,7 +127,6 @@ body {
   align-content: center;
   justify-content: center;
   display: flex;
-  gap: 250px;
   width: 300px;
   border-radius: 5px;
 }

@@ -11,7 +11,6 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Tip calculator app</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -35,21 +34,21 @@
         <h4 class="title">Bill</h4>
         <div class="cost">
           <img src="images/icon-dollar.svg" alt="" />
-          <h2 class="bill">142.55</h2>
+          <input class="bill" type="number" placeholder="0" />
         </div>
         <h5 class="title">Select Tip %</h5>
         <div class="TipSelect">
-          <h3 class="unselected">5%</h3>
-          <h3 class="unselected">10%</h3>
-          <h3 class="selected">15%</h3>
-          <h3 class="unselected">25%</h3>
-          <h3 class="unselected">50%</h3>
-          <h3 class="custom">custom</h3>
+          <button class="unselected btn1">5%</button>
+          <button class="unselected btn2">10%</button>
+          <button class="unselected btn3">15%</button>
+          <button class="unselected btn4">25%</button>
+          <button class="unselected btn5">50%</button>
+          <input class="custom btn6" placeholder="Custom" />
         </div>
         <h5 class="title">Number of People</h5>
         <div class="paying">
           <img src="images/icon-person.svg" alt="" />
-          <h2 class="PeopleAmount">5</h2>
+          <input class="PeopleAmount" type="number" placeholder="0" />
         </div>
       </div>
 
@@ -59,7 +58,7 @@
             <h5 class="paying1">Tip Amount</h5>
             <h6 class="person">/ person</h6>
           </div>
-          <h1 class="dollars">$4.27</h1>
+          <h1 class="tip dollars">$0</h1>
         </div>
 
         <div class="Amount">
@@ -68,10 +67,11 @@
             <h6 class="person">/ person</h6>
           </div>
 
-          <h1 class="dollars">$32.79</h1>
+          <h1 class="pay dollars">$0</h1>
         </div>
         <button class="reset">RESET</button>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
