@@ -1,168 +1,53 @@
 body {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
-  background-color: hsl(185, 41%, 84%);
-  flex-direction: column;
   height: 100vh;
+  background-color: hsl(275, 100%, 97%);
+  color: hsl(292, 42%, 14%);
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.Logo {
-  margin-bottom: 100px;
-}
-
-.card {
+.page {
   background-color: white;
-  font-family: monospace;
-  width: 600px;
-  height: 300px;
+  padding: 25px;
+  width: 500px;
+  height: 520px;
   border-radius: 20px;
-  padding: 60px;
+}
+
+.divider {
+  border: 0.1px solid lightgray;
+  opacity: 20%;
+}
+
+.faq {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.Rcard {
-  background-color: hsl(183, 100%, 15%);
-  padding: 30px;
-  border-radius: 20px;
-  width: 300px;
-  height: 300px;
+.desc {
+  color: hsl(292, 16%, 49%);
+  display: none;
 }
 
-.Lcard {
-  margin-right: 20px;
-}
-
-.unselected {
-  background-color: hsl(183, 100%, 15%);
-  color: hsl(172, 67%, 45%);
-  padding: 10px;
+.question {
+  display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.more {
   display: flex;
-  width: 75px;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 10px;
+  align-items: end;
+  justify-content: end;
+  margin-left: 275px;
 }
 
-.unselected:hover {
-  transition: 0.5s;
-  color: hsl(183, 100%, 15%);
-  background-color: hsl(172, 67%, 45%);
-}
-
-.custom {
-  background-color: hsl(189, 41%, 97%);
-  color: hsl(184, 14%, 56%);
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
+.less {
   display: flex;
-  width: 55px;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 10px;
-}
-
-.title {
-  color: hsl(186, 14%, 43%);
-}
-
-.dollars {
-  color: hsl(172, 67%, 45%);
-}
-
-.paying {
-  color: white;
-}
-
-.person {
-  color: hsl(186, 14%, 43%);
-}
-
-.bill {
-  color: hsl(183, 100%, 15%);
-  border: none;
-  background-color: hsl(189, 41%, 97%);
-  height: 50px;
-  width: 250px;
-  margin-right: 0px;
-  font-size: 40px;
-  text-align: right;
-}
-.PeopleAmount {
-  color: hsl(183, 100%, 15%);
-  border: none;
-  background-color: hsl(189, 41%, 97%);
-  height: 50px;
-  width: 250px;
-  margin-left: 20px;
-  font-size: 40px;
-  text-align: right;
-}
-
-.paying1 {
-  color: white;
-}
-
-.cost {
-  background-color: hsl(189, 41%, 97%);
-  align-content: center;
-  justify-content: center;
-  display: flex;
-  width: 300px;
-  border-radius: 5px;
-}
-.cost img {
-  width: 15px;
-  height: 25px;
-  align-self: center;
-}
-
-.paying {
-  background-color: hsl(189, 41%, 97%);
-  align-content: center;
-  justify-content: center;
-  display: flex;
-  width: 300px;
-  border-radius: 5px;
-}
-.paying img {
-  width: 20px;
-  height: 25px;
-  align-self: center;
-}
-
-.reset {
-  border: none;
-  background-color: hsl(172, 67%, 45%);
-  color: hsl(183, 100%, 15%);
-  width: 250px;
-  height: 30px;
-  border-radius: 5px;
-  font-weight: 1000;
-  margin-left: 25px;
-  margin-top: 75px;
-}
-
-.TipAmount {
-  align-content: center;
-  justify-content: center;
-  display: flex;
-  gap: 200px;
-}
-
-.Amount {
-  align-content: center;
-  justify-content: center;
-  display: flex;
-  gap: 200px;
-}
-
-.TipSelect {
-  grid-template-columns: 1fr 1fr 1fr;
-  display: grid;
+  align-items: end;
+  justify-content: end;
+  margin-left: 75px;
 }
